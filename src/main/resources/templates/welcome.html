@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Welcome page!</title>
+</head>
+<body>
+    <h1 th:text="'Ciao id ' + ${datiUtente.id} + ' nome ' + ${datiUtente.username} + ' password ' + ${datiUtente.password} + ' email ' + ${datiUtente.email} + '!!!'"></h1>
+</body>
+</html>
